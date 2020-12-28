@@ -1,18 +1,12 @@
-# Algorythmus
-# 1. Zahl 2 festlegen :-)
-# Schleife: :-)
-#  - Zahl +1 :-)
-# - for schleife mit range 2 - Zahl
-# - Dictionary mit for schleife durchgehen, lässt dich die zahl mit der Zahl im dictionary teilen, überprüfen ob ausgewählte Zahl
-# im Dictionary 1 oder zahl ist
-# JA: Weitermachen
-# NEIN: For Schleife abbrechen, zahl in Konsole schreiben und schleife von vorne anfangen
-
+# Überprüfung importieren
 from test import isPrime
+# Anfangszahl festlegen
 zahl = 2
+#Schleife anfangen
 while True:
+    # Zahl bei jedem durchlauf um 1 erhöhen
     zahl += 1
+    # Überprüfen ob Primzahl
     if isPrime(zahl) == True:
+        # Wenn ja: Ausgeben
         print(str(zahl))
-
-
